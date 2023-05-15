@@ -80,6 +80,7 @@ def rsa_decrypt(encrypted_message, private_key):
 
 
 def main():
+    # example usage: 
     public_key = (27977, 13)
     private_key = (27977, 25477)
     encrypted_message = rsa_encrypt(150, public_key)
